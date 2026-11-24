@@ -48,7 +48,7 @@ export default function Stories() {
       <div className="problem-glow" aria-hidden="true" />
       <div className="problem-inner">
         <div className="problem-head">
-          <span className="eyebrow">Beta testers</span>
+          <span className="eyebrow">Testimonials</span>
           {seen ? (
             <TypedTitle lines={LINES} className="problem-title" reduce={reduce} onDone={onDone} />
           ) : (
